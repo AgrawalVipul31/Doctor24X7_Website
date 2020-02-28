@@ -1,0 +1,463 @@
+
+* {
+    margin: 0 ; 
+    padding: 0;
+    text-decoration:none !important; 
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+ 
+
+.heading
+{
+     font-weight: bold;
+     text-align: center;
+     font-size: 25px !important;
+     color:#1d98cd;
+     margin:25px;
+     animation-name: moveInBottom;
+     animation-duration: 2.5s;
+ }
+ .carousel-control-prev-icon, .carousel-control-next-icon
+ {
+   padding-top: 15px;
+   padding-bottom: 15px;
+ }
+
+/* *************************************************Section 1************************************************* */
+.s1
+{
+    position: relative;
+    background-image: linear-gradient(to right, #33404e,#040e17);
+    animation-name: moveInBottom;
+    animation-duration: 2.5s;
+
+}
+.content::before {
+  content: "Best Doctor For -";
+}
+.sp1 
+{  position: absolute;
+   color:#1d98cd;
+}
+.sp1 h5{
+    text-align: center !important;
+    
+}
+
+.image1
+{
+    width:200px;
+    height:60px;
+    position: absolute;
+}
+.login
+{
+float:right;
+}
+.login a{
+ color: #138496;
+    /* font-weight: 600; */
+    font-family: 'Montserrat', sans-serif;
+}
+.tag
+{   text-align: center !important;
+    position: relative;
+    color:white;
+
+}
+nav {
+  background-image: linear-gradient(to right,#585d61,#3d4144);
+ width: 100% !important;
+ animation-name: moveInBottom;
+  animation-duration: 2.5s;
+ 
+}
+
+  .navbar-nav li button {
+  
+    color:#fff !important;
+    font-weight: bold !important;
+    border:2px solid black;
+    position: relative;
+    padding-top:10px;
+    height: 60px;
+    font-size: small;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    background-color: #17a2b8 !important;
+    width: 120px;
+  } 
+ 
+  .navbar-nav li{
+    margin-left: 20px !important;
+  
+  }
+ 
+  .navbar-nav li button:focus
+  {
+  background-color:#0c7181 !important;
+  border-color:#117a8b !important;
+  box-shadow: 0 0 0 .2rem rgba(58,176,195,.5) !important;
+  color:black !important;
+  }
+  .navbar-nav li button:hover{
+    background-color: #138496 !important;
+
+    border-color:#117a8b !important;
+  
+  }
+/* *************************************************Section 2************************************************* */
+.s2 img
+  {
+    
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      width:100% !important;
+      height: 450px !important;
+  }
+  
+/* *************************************************Section  3************************************************* */
+
+  
+  
+  .navbar-nav li{
+    margin-left:12px; 
+  }
+  
+/* *************************************************Section  4************************************************* */
+
+.glyphicon
+{
+    font-size: 50px;
+}
+.lar{
+  
+  font-size: 18px;
+  float:center;
+}
+.cen{
+text-align: center;
+}
+.ds .img
+ {
+    
+     height: 240px !important;
+     border-radius: 10px !important;
+
+ }
+ 
+ /* *************************************************Section 5************************************************* */
+
+ .lay3
+ {
+     /* font-weight: bold; */
+     margin-top: 50px;
+     text-align: center;
+ }
+ .lay3__item{
+     padding-bottom: 10px;
+     list-style: none;
+ }
+ 
+ 
+
+/* *************************************************Section  6************************************************* */
+.tc  img
+{
+  width:120px; 
+  height: 80px; 
+ margin-top:20px;
+  border-radius: 10px;
+  
+}
+.tc li{
+   margin-top: 20px;
+   font-weight:500;
+   list-style-type: none;
+  
+  
+   
+}
+.tc button{
+    float: right;
+    font-size: 15px;
+    width:180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #17a2b8 !important;
+    border:3px solid black;
+     
+}
+.tc button:hover
+{
+color: #fff;
+background-color: #138496 !important;
+border-color:#117a8b !important;
+}
+.tc button:focus
+{
+  background-color:#0c7181 !important;
+  border-color:#117a8b !important;
+  box-shadow: 0 0 0 .2rem rgba(58,176,195,.5) !important;
+  color:black !important;
+}
+.tc .small{
+  font-size: 9px;
+  color:black;
+  font-weight: 500;
+}
+.text
+{
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+ 
+/* *************************************************Section  7************************************************* */
+.awards img{
+    width:70px;
+    height:50px;
+   
+}
+.awards li{
+  list-style: none;
+  font-weight: 500;
+  margin-top: 20px;
+}
+/* *************************************************Section  8************************************************* */
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.tg td{
+  font-family: 'Montserrat', sans-serif;
+    font-size:10px;
+    padding:13px 13px;
+    overflow:hidden;
+    word-break:normal;
+    border:3px solid black;
+    font-weight: 500;
+}
+.tg th{
+  font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    font-weight:600;
+    padding:13px 13px;
+    overflow:hidden;
+    word-break:normal;
+    border:3px solid black;
+    background-color:#1d98cd ;
+}
+.tg .tg-l{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:middle
+}
+.tg .tg-0{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top
+}
+.tg .tg-z{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:bottom
+}
+.c{
+    background-color:#1d98cd ;
+}
+/* *************************************************Section  9************************************************* */
+
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container  div {
+    margin: auto;
+    margin: auto;
+    font-size: 15px;
+  }
+  .flex-container p{
+    font-weight: 500;
+    display: flex;
+  }
+  .flex-container .fa
+  {
+     color:#44ef0d;
+  } 
+  .flex-container  p{
+      text-align: justify;
+  }
+  .flex-container i{
+      padding:5px;
+  }
+  .remove
+  {
+    visibility: hidden;
+  }
+/* *************************************************Section  10************************************************* */
+
+  .checked
+  {
+      color:orange;
+  }
+  .icon
+  {
+      width:50px;
+      height:50px;
+      border-radius: 30px;
+  }
+   /* *************************************************Section 11************************************************* */
+   .icon
+  {
+      width:50px;
+      height:50px;
+      border-radius: 30px;
+  }
+   .form
+   {
+   
+     padding: 30px;
+   }
+
+ .information 
+ {
+  border: 2px solid gray;
+ margin:auto;
+
+ padding: 20px;
+ padding-top: 80px;
+ padding-bottom: 80px;
+   
+ }
+ 
+ .information div {
+  margin: 10px;
+ }
+  /* *************************************************Section  12************************************************* */
+  .rounded
+   {
+     border:3px solid #1d98cd !important;
+    
+   }
+ 
+   .morecard
+   {
+   text-align: center !important;
+   }
+ 
+/* ********************************Video setting*************************************************************** */
+.ds i  {
+  width: 58px;
+  position: absolute;
+  cursor: pointer;
+  margin-top: 96px;
+  margin-bottom: 122px;
+  margin-left: 150px;
+  font-size: 50px;
+  opacity: 1;
+  transition: 0.5s;
+ 
+}
+.ds i:hover{
+  color:red;
+}
+footer
+{   
+  color:white;
+}
+#footer h5:hover{
+  padding: 20px;
+  border-bottom: 2px solid #1d98cd;
+
+}
+
+.footer-links{
+	margin:20px 0;
+}
+
+.footer-links h5{
+	font-size:15px;
+  font-weight:500;
+  padding: 20px;
+  text-transform:uppercase;
+  margin-left: 8px;
+}
+
+.footer-links ul {
+	  margin: 0;
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer .copyright{
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(to right,#040e17, #33404e);
+}
+
+footer p{
+  margin:0; 
+
+}
+  #footer {
+    background-image: linear-gradient(to right, #33404e,#040e17);
+}
+
+::selection
+{
+ background-color:#1d98cd;
+  color: white;
+}
+@keyframes moveInBottom
+{
+  0%
+  {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+  80%
+  {
+    transform: translateY(-2rem);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:red;
+  opacity:1;
+}
+
+
+.pagination li button{
+  margin: 2px;
+  border-radius: 10px;
+}
+
+#tg-1 .btn
+{
+  padding: 0px !important;
+  margin: 0px !important;
+}
